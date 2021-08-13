@@ -1,0 +1,26 @@
+{
+  "name": "sunat-catalogs",
+  "version": "1.0.0",
+  "description": "SUNAT Catalogs for electronic billing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/confluxpe/sunat-catalogs.git"
+  },
+  "keywords": [
+    "sunat",
+    "catalogs",
+    "electronic",
+    "billing",
+    "peru"
+  ],
+  "author": "confluxpe",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/confluxpe/sunat-catalogs/issues"
+  },
+  "homepage": "https://github.com/confluxpe/sunat-catalogs#readme"
+}
