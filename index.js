@@ -23,27 +23,27 @@ const DocumentoRelacionado = require('./lib/CodigosDocumentosRelacionadosTributa
 class catalogsPeru {
 	help() {
 		let catalog = {
-			codigosCargosDescuentos: 'Códigos de cargos o descuentos',
-			codigosConceptoTributario: 'Códigos de Identificación del Concepto Tributario',
-			codigosDocumentosRelacionadosTributarios: 'Códigos de documentos relacionados tributarios',
-			codigosEstadoItem: 'Códigos de estado del ítem (resumen diario)',
-			codigosLeyendas: 'Códigos de leyendas',
-			codigosPais: 'Códigos de país',
-			codigosRegimenPercepcion: 'Códigos de regimen de percepciones',
-			codigosRegimenRetencion: 'Códigos de regimen de retenciones',
-			codigosTipoAfectacionIgv: 'Códigos de tipo de afectación del IGV',
-			codigosTipoDocumento: 'Códigos de tipo de documento',
-			codigosTipoDocumentoIdentidad: 'Códigos de tipo de documento de Identidad',
-			codigosTipoMoneda: 'Códigos de tipo de monedas',
-			codigosTipoNotaCredito: 'Códigos de tipo de nota de crédito electrónica',
-			codigosTipoNotaDebito: 'Códigos de tipo de nota de débito electrónica',
-			codigosTipoOperacion: 'Códigos de tipo de operación',
-			codigosTipoPrecioVentaUnitario: 'Códigos de tipo de precio de venta unitario',
-			codigosTipoResumen: 'Códigos de tipo de resumen',
-			codigosTipoSistemaCalculoIsc: 'Códigos de tipos de sistema de cálculo del ISC',
-			codigosTipoTributo: 'Códigos de tipos de tributos y otros conceptos',
-			codigosTipoUnidadMedida: 'Códigos de Tipo de Unidad de Medida Comercial',
-			codigosTipoValorVenta: 'Códigos de tipo de valor de venta (Resumen diario de boletas y notas)'
+			cargoDescuento: 'Códigos de cargos o descuentos',
+			conceptoTributario: 'Códigos de Identificación del Concepto Tributario',
+			documentoRelacionado: 'Códigos de documentos relacionados tributarios',
+			estadoItem: 'Códigos de estado del ítem (resumen diario)',
+			leyenda: 'Códigos de leyendas',
+			pais: 'Códigos de país',
+			regimenPercepcion: 'Códigos de regimen de percepciones',
+			regimenRetencion: 'Códigos de regimen de retenciones',
+			tipoAfectacionIgv: 'Códigos de tipo de afectación del IGV',
+			tipoDocumento: 'Códigos de tipo de documento',
+			tipoDocumentoIdentidad: 'Códigos de tipo de documento de Identidad',
+			tipoMoneda: 'Códigos de tipo de monedas',
+			tipoNotaCredito: 'Códigos de tipo de nota de crédito electrónica',
+			tipoNotaDebito: 'Códigos de tipo de nota de débito electrónica',
+			tipoOperacion: 'Códigos de tipo de operación',
+			tipoPrecioVenta: 'Códigos de tipo de precio de venta unitario',
+			tipoResumen: 'Códigos de tipo de resumen',
+			tipoSistemaIsc: 'Códigos de tipos de sistema de cálculo del ISC',
+			tipoTributo: 'Códigos de tipos de tributos y otros conceptos',
+			tipoUnidadMedida: 'Códigos de Tipo de Unidad de Medida Comercial',
+			tipoValorVenta: 'Códigos de tipo de valor de venta (Resumen diario de boletas y notas)'
 		};
 		return catalog;
 	}
