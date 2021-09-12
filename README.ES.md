@@ -1,16 +1,14 @@
 # SUNAT-Catalogs
 
-SUNAT Catalogs for electronic billing.
+Catálogos SUNAT para facturación electrónica.
 
 ```
 npm install catalogs-conflux
 ```
 
-[🇵🇪 Spanish - Español](README.ES.md)
-
 ## Usage
 
-Create an instance from the library, with that instance you can access each catalog.
+Crea una instancia a partir de la librería, con esa instancia puedes acceder a cada catálogo.
 
 ```
 const catalogsPeru = require('catalogs-conflux');
@@ -24,7 +22,7 @@ console.log(typeDoc.find("07"));
 
 ## Help
 
-To see all available catalogs and their descriptions, execute the help() method.
+Para ver todos los catálogos disponibles y sus descripciones, ejecutar el método help().
 
 ```
 miCatalogo.help()
