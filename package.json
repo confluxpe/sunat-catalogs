@@ -1,6 +1,6 @@
 {
   "name": "sunat-catalogs-pe",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "SUNAT Catalogs for electronic billing",
   "main": "index.js",
   "scripts": {
