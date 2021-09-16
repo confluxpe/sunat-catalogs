@@ -3,7 +3,7 @@
 SUNAT Catalogs for electronic billing.
 
 ```
-npm install catalogs-conflux
+npm install sunat-catalogs-pe
 ```
 
 [🇵🇪 Spanish - Español](README.ES.md)
