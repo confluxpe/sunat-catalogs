@@ -3,7 +3,7 @@
 Catálogos SUNAT para facturación electrónica.
 
 ```
-npm install catalogs-conflux
+npm install sunat-catalogs-pe
 ```
 
 ## Usage
