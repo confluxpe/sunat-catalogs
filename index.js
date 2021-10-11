@@ -19,6 +19,7 @@ const ConceptoTributario = require('./lib/CodigosConceptoTributario');
 const TipoPrecioVenta = require('./lib/CodigosTipoPrecioVentaUnitario');
 const TipoDocumentoIdentidad = require('./lib/CodigosTipoDocumentoIdentidad');
 const DocumentoRelacionado = require('./lib/CodigosDocumentosRelacionadosTributarios');
+const Detraccion = require('./lib/CodigosDetraccion');
 
 class catalogsPeru {
 	help() {
@@ -43,7 +44,8 @@ class catalogsPeru {
 			tipoSistemaIsc: 'Códigos de tipos de sistema de cálculo del ISC',
 			tipoTributo: 'Códigos de tipos de tributos y otros conceptos',
 			tipoUnidadMedida: 'Códigos de Tipo de Unidad de Medida Comercial',
-			tipoValorVenta: 'Códigos de tipo de valor de venta (Resumen diario de boletas y notas)'
+			tipoValorVenta: 'Códigos de tipo de valor de venta (Resumen diario de boletas y notas)',
+			detraccion: 'Código de detracción con porcentaje'
 		};
 		return catalog;
 	}
@@ -110,6 +112,9 @@ class catalogsPeru {
 	}
 	documentoRelacionado() {
 		return DocumentoRelacionado;
+	}
+	detraccion() {
+		return Detraccion;
 	}
 }
 
